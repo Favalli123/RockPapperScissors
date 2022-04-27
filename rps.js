@@ -9,6 +9,8 @@ console.log(computerPlay);
 let playerScore = 0; 
 let computerScore = 0;
 
+
+
 for (let i = 0; i < 5; i++){
 let playerSelection = prompt("rock, paper, scissors");
 
@@ -34,3 +36,5 @@ alert("Playerscore");
 alert(playerScore);
 alert("Computerscore");
 alert(computerScore);
+
+if(computerScore > playerScore) {alert("You Lose")} else if(playerScore > computerScore) {alert("You win")} else{alert(Tie)}
