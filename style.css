@@ -1,0 +1,66 @@
+#rock{
+    color: white;
+    background-color:dimgray;
+    font-size: 30px;
+    padding: 20px 32px;
+    font-style: italic;
+    
+}
+
+#paper{
+    color: black;
+    background-color: white;
+    font-size: 30px;
+    padding: 20px 32px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-style: italic;
+}
+
+#scissors{
+    color: black;
+    background-color: palevioletred;
+    font-size: 30px;
+    padding: 20px 32px;
+    font-style: italic;
+   
+}
+
+.head{
+   background-color: black;
+   text-align: center;
+   padding-top: 30px;
+   font-size: 25px;
+   padding-bottom: 5px;
+   color: aliceblue;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: gray ;
+}
+
+.body2{
+    background-color: aliceblue;
+    padding: 10px 20px;
+    margin-bottom: 40px;
+}
+
+h3{
+    background-color: black;
+    color: antiquewhite;
+    padding: 5px 10px;
+}
+
+#startGame{
+    font-size: 20px;
+    padding: 5px 10px;
+    margin-top: 30px;
+
+}
+
+.ele{
+    display: flex;
+    justify-content: center;
+    
+}
